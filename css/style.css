@@ -21,8 +21,6 @@ body{
 .header {
     width: 100%;
     padding: 0 .5em;
-    /* height: 60px; */
-    /* background: darkgoldenrod; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,37 +39,21 @@ body{
     gap: 5px;
 
 }
-
-.logo__icono {
-    /* background: green; */
-}
-
 .logo__icono img {
     width: 3em;
 }
 
 .logo__titulo {
-    /* background: orange; */
     color: var(--color-ternario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
-}
-
-.header__menu {
-    /* background: darkblue; */
 }
 
 .header__menu i {
     font-size: 3em;
     color: var(--color-ternario);
 }
-
-.main__titulo {
-    /* background: red; */
-}
-
 .titulo__card {
-    /* background: green; */
     display: flex;
     flex-direction: column;
     margin-top: 35px;
@@ -141,7 +123,6 @@ progress[value] {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    /* margin: 0 10px; */
     height: .5em;
     border-radius: 10em;
 }
@@ -175,12 +156,9 @@ progress[value]::-moz-progress-bar {
     flex-direction: column;
     gap: .5em;
 }
-.activities__service{
-    /* background: blue; */
-}
+
 .activities__service h3,
 .activities__transactions h3{
-    /* background: darkgoldenrod; */
     text-transform: capitalize;
     font-family: "SF-Pro-Text-Bold";
     font-size: 1.3em;
@@ -188,7 +166,6 @@ progress[value]::-moz-progress-bar {
 }
 
 .service__cards{
-    /* background: olivedrab; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -215,22 +192,7 @@ progress[value]::-moz-progress-bar {
 .service__cards div i{
     font-size: 2.3em;
 }
-.service__cards__item_1, 
-.service__cards__item_2, 
-.service__cards__item_3{
-    /* background: darkmagenta; */
-}
-
-
-
-
-
-.activities__transactions{
-    /* background: red; */
-}
-
 .transactions__cards{
-    /* background: orangered; */
     height: 460px;
     display: flex;
     flex-direction: column;
@@ -238,7 +200,6 @@ progress[value]::-moz-progress-bar {
     gap: 15px
 }
 .transactions__cards div{
-    /* background: darkgoldenrod; */
     height: 45px;
     display: flex;
     flex-direction: row;
@@ -294,7 +255,9 @@ i.bxs-down-arrow{
     list-style: none;
     margin: .5em 0;
 }
-
 .footer ul li a img {
     width: 2em;
+}
+.footer ul li a .perfil{
+    width: 4em;
 }
